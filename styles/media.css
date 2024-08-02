@@ -1,0 +1,36 @@
+@media (max-width: 840px) {
+
+    .scheme-inner{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .scheme-inner__card{
+        width: 100%;
+    }
+    .scheme-inner span img{
+        transform: rotate(90deg);
+    }
+    .form-inner{
+        flex-direction: column;
+    }
+    
+    .footer-inner{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 550px){
+    .title-block__logo img{
+        width: 300px;
+        height: 300px;
+    }
+    .title-block__logo::before {
+        width: 300px;
+    }
+    .services__inner-card{
+        width: 400px;
+    }
+    .footer-inner__text-block{
+        text-align: center;
+    }
+}
