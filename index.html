@@ -6,6 +6,7 @@
     <title>RoyalSystems</title>
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/swiper.css">
   </head>
   <body>
     <div class="wrapper">
@@ -27,227 +28,298 @@
         </div>
       </header>
       <main>
-        <div class="title-block" id="title-block">
+        <div class="title-block" id="title-block" >
           <div class="title-block__logo">
-            <h1>RoyalSystems</h1>
+            <h1 class="title-block__title" data-title>RoyalSystems</h1>
             <img src="img/logo.svg" alt="logo" />
           </div>
         </div>
         <div class="services" id="services">
           <div class="container">
-            <h2 class="service__title">Types of services</h2>
-            <div class="scroll__wrapper">
-              <div class="services__inner">
-                <div class="services__inner-card">
-                  <div class="services__inner-card__header">
-                    <p>Lending</p>
-                    <span>Most Popular</span>
-                  </div>
-                  <div class="services__inner-card__title">
-                    <h2>
-                      A business card website is a small website containing
-                      basic information about a person, company or service.
-                    </h2>
-                  </div>
-                  <div class="services__inner-card__button-inner">
-                    <button class="services__inner-card__button">Order</button>
-                  </div>
-                  <div class="line-block">
-                    <span></span>
-                    <p>features</p>
-                    <span></span>
-                  </div>
-                  <div class="services__inner-card__features">
-                    <ul>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+            <h2 class="service__title" data-service-title>Types of services</h2>
+            <div class="services__wrapper" data-slider>
+              <ul class="services__inner swiper-wrapper">
+                <li class="services__slide swiper-slide">
+                  <div class="services__inner-card">
+                    <div class="services__inner-card-header">
+                      <p>Lending</p>
+                      <span>Most Popular</span>
+                    </div>
+                    <div class="services__inner-card-title">
+                      <h2>
+                        A business card website is a small website containing
+                        basic information about a person, company or service.
+                      </h2>
+                    </div>
+                    <button class="services__button">Order</button>
+                    <div class="services__line-block">
+                      <span></span>
+                      <p>features</p>
+                      <span></span>
+                    </div>
+  
+                    <ul class="services__features">
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch1" id="ch1">
+                        <label for="ch1">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch2" id="ch2">
+                        <label for="ch2">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch3" id="ch3">
+                        <label for="ch3">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch4" id="ch4">
+                        <label for="ch4">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch5" id="ch5">
+                        <label for="ch5">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="services__inner-card">
-                  <div class="services__inner-card__header">
-                    <p>Lending</p>
-                    <span>Most Popular</span>
-                  </div>
-                  <div class="services__inner-card__title">
-                    <h2>
-                      A business card website is a small website containing
-                      basic information about a person, company or service.
-                    </h2>
-                  </div>
-                  <div class="services__inner-card__button-inner">
-                    <button class="services__inner-card__button">Order</button>
-                  </div>
-                  <div class="line-block">
-                    <span></span>
-                    <p>features</p>
-                    <span></span>
-                  </div>
-                  <div class="services__inner-card__features">
-                    <ul>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch6" id="ch6">
+                        <label for="ch6">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
                     </ul>
+  
                   </div>
-                </div>
-                <div class="services__inner-card">
-                  <div class="services__inner-card__header">
-                    <p>Lending</p>
-                    <span>Most Popular</span>
-                  </div>
-                  <div class="services__inner-card__title">
-                    <h2>
-                      A business card website is a small website containing
-                      basic information about a person, company or service.
-                    </h2>
-                  </div>
-                  <div class="services__inner-card__button-inner">
-                    <button class="services__inner-card__button">Order</button>
-                  </div>
-                  <div class="line-block">
-                    <span></span>
-                    <p>features</p>
-                    <span></span>
-                  </div>
-                  <div class="services__inner-card__features">
-                    <ul>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                  
+                </li>
+                <li class="services__slide swiper-slide">
+                  <div class="services__inner-card">
+                    <div class="services__inner-card-header">
+                      <p>Lending</p>
+                      <span>Most Popular</span>
+                    </div>
+                    <div class="services__inner-card-title">
+                      <h2>
+                        A business card website is a small website containing
+                        basic information about a person, company or service.
+                      </h2>
+                    </div>
+                    <button class="services__button">Order</button>
+                    <div class="services__line-block">
+                      <span></span>
+                      <p>features</p>
+                      <span></span>
+                    </div>
+
+                    <ul class="services__features">
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch7" id="ch7">
+                        <label for="ch7">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch8" id="ch8">
+                        <label for="ch8">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch9" id="ch9">
+                        <label for="ch9">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch10" id="ch10">
+                        <label for="ch10">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch11" id="ch11">
+                        <label for="ch11">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch12" id="ch12">
+                        <label for="ch12">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
                     </ul>
+  
                   </div>
-                </div>
-                <div class="services__inner-card">
-                  <div class="services__inner-card__header">
-                    <p>Lending</p>
-                    <span>Most Popular</span>
-                  </div>
-                  <div class="services__inner-card__title">
-                    <h2>
-                      A business card website is a small website containing
-                      basic information about a person, company or service.
-                    </h2>
-                  </div>
-                  <div class="services__inner-card__button-inner">
-                    <button class="services__inner-card__button">Order</button>
-                  </div>
-                  <div class="line-block">
-                    <span></span>
-                    <p>features</p>
-                    <span></span>
-                  </div>
-                  <div class="services__inner-card__features">
-                    <ul>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                  
+                </li>
+                <li class="services__slide swiper-slide">
+                  <div class="services__inner-card">
+                    <div class="services__inner-card-header">
+                      <p>Lending</p>
+                      <span>Most Popular</span>
+                    </div>
+                    <div class="services__inner-card-title">
+                      <h2>
+                        A business card website is a small website containing
+                        basic information about a person, company or service.
+                      </h2>
+                    </div>
+                    <button class="services__button">Order</button>
+                    <div class="services__line-block">
+                      <span></span>
+                      <p>features</p>
+                      <span></span>
+                    </div>
+  
+                    <ul class="services__features">
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch13" id="ch13">
+                        <label for="ch13">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch14" id="ch14">
+                        <label for="ch14">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch15" id="ch15">
+                        <label for="ch15">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch16" id="ch16">
+                        <label for="ch16">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch17" id="ch17">
+                        <label for="ch17">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
-                      </li>
-                      <li>
-                        <span><img src="img/check.svg" alt="" /></span> Expense
-                        Traking
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch18" id="ch18">
+                        <label for="ch18">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
                       </li>
                     </ul>
+  
                   </div>
-                </div>
-              </div>
+                  
+                </li>
+                <li class="services__slide swiper-slide">
+                  <div class="services__inner-card">
+                    <div class="services__inner-card-header">
+                      <p>Lending</p>
+                      <span>Most Popular</span>
+                    </div>
+                    <div class="services__inner-card-title">
+                      <h2>
+                        A business card website is a small website containing
+                        basic information about a person, company or service.
+                      </h2>
+                    </div>
+                    <button class="services__button">Order</button>
+                    <div class="services__line-block">
+                      <span></span>
+                      <p>features</p>
+                      <span></span>
+                    </div>
+  
+                    <ul class="services__features">
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch19" id="ch19">
+                        <label for="ch19">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch20" id="ch20">
+                        <label for="ch20">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch21" id="ch21">
+                        <label for="ch21">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch22" id="ch22">
+                        <label for="ch22">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch23" id="ch23">
+                        <label for="ch23">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                      <li class="services__features-item">
+                        <input class="services__input" type="checkbox" name="ch24" id="ch24">
+                        <label for="ch24">Expense Traking</label>
+                        <span class="services__icon">
+                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 548.873 548.873" xml:space="preserve"><g><g><polygon points="449.34,47.966 195.46,301.845 99.533,205.917 0,305.449 95.928,401.378 195.46,500.907 294.99,401.378 548.873,147.496 " fill="#000000" style="fill: rgb(192, 174, 160);"></polygon></g></g></svg>
+                        </span>
+                      </li>
+                    </ul>
+                    </div>
+                  
+                </li>
+              </ul>
             </div>
+            <!-- <div class="services__btn services__btn--prev swiper-button-prev">
+              <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5494 0.596313C15.3796 0.422613 15.1778 0.284801 14.9557 0.190771C14.7336 0.0967409 14.4955 0.0483398 14.255 0.0483398C14.0145 0.0483398 13.7764 0.0967409 13.5543 0.190771C13.3322 0.284801 13.1304 0.422613 12.9606 0.596313L0.806391 12.9962C0.670803 13.1342 0.563232 13.2982 0.489837 13.4787C0.416441 13.6592 0.378662 13.8527 0.378662 14.0481C0.378662 14.2436 0.416441 14.4371 0.489837 14.6176C0.563232 14.7981 0.670803 14.9621 0.806391 15.1001L12.9606 27.5C13.6773 28.2311 14.8327 28.2311 15.5494 27.5C16.2661 26.7688 15.6724 26.0011 14.9557 25.2699L8.55413 18.7699L4.04435 14L15.5651 2C15.5651 2 16.2661 1.31255 15.5494 0.596313Z" fill="black"/>
+                </svg>
+                
+            </div>
+            <div class="services__btn services__btn--next swiper-button-next">
+              <svg width="17" height="29" viewBox="0 0 17 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.28042 28.1736C1.45025 28.3473 1.652 28.4851 1.87412 28.5791C2.09623 28.6732 2.33435 28.7216 2.57483 28.7216C2.8153 28.7216 3.05342 28.6732 3.27554 28.5791C3.49765 28.4851 3.6994 28.3473 3.86923 28.1736L16.0234 15.7737C16.159 15.6357 16.2666 15.4717 16.34 15.2912C16.4134 15.1107 16.4512 14.9172 16.4512 14.7218C16.4512 14.5263 16.4134 14.3328 16.34 14.1523C16.2666 13.9718 16.159 13.8078 16.0234 13.6698L3.86923 1.26992C3.15255 0.538765 1.9971 0.538765 1.28042 1.26992C0.563748 2.00108 1.71808 3.26884 2.43476 4L12.9082 14.7218L1.87412 26C1.17207 26.7162 0.563748 27.4573 1.28042 28.1736Z" fill="black"/>
+                </svg>
+                
+            </div> -->
           </div>
         </div>
         <!-- <div class="examples">
@@ -318,7 +390,7 @@
           <div class="footer-inner">
             <a href="#title-block">
               <div class="footer-inner__logo-block">
-                <h1>RoyalSystems</h1>
+                <h2 class="footer-inner__logo-title">RoyalSystems</h2>
                 <img src="img/logo.svg" alt="logo" />
               </div>
             </a>
@@ -342,4 +414,6 @@
     </div>
   </body>
   <script src="lib/main.js"></script>
+  <script module src="lib/swiper.js"></script>
+  <script module src="lib/gsap.js"></script>
 </html>
